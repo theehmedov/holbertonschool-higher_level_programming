@@ -9,7 +9,7 @@ if __name__ == "__main__":
         print(f"{a} argument:")
         print(arg())
     elif a == 0:
-        print(f"{a} argument.")
+        print(f"{a} arguments.")
     else:
         print(f"{a} arguments:")
         print(arg())
