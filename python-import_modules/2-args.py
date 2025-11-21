@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
     import sys
-    a = len(sys.argv) -1
+    a = len(sys.argv) - 1
     def arg():
         for i in range(1, 6):
             print(f"{i}: {sys.argv[i]}")
