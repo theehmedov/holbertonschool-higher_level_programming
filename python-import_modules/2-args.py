@@ -8,6 +8,8 @@ if __name__ == "__main__":
     if a == 1:
         print(f"{a} argument:")
         print(arg())
+    elif a == 0:
+        print(f"{a} argument.")
     else:
         print(f"{a} arguments:")
         print(arg())
