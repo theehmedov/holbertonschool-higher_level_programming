@@ -1,5 +1,1 @@
-#!/usr/bin/python3
-# comment
-def add(a, b):
-    print(int(a) + int(b))
-add(1, 2)
+from add_0 import add
