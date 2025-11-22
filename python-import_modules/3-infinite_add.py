@@ -5,7 +5,7 @@ if __name__ == "__main__":
     a = sys.argv[1:]
     b = len(a)
     c = 0
-    if l == 1:
+    if b == 1:
         print("0")
     else:
         for i, arg in enumerate(a, start=1):
