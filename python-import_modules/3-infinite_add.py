@@ -11,4 +11,3 @@ if __name__ == "__main__":
         for i, arg in enumerate(a, start=1):
             c = int(c) + int(arg)
         print(int(c))
-
