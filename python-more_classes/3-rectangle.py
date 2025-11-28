@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""This module defines a Rectangle class with width, height, area, perimeter,
-and string representation using the # character."""
+"""string representation using the # character."""
 
 
 class Rectangle:
