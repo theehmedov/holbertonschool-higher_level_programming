@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""idth, height, area, perimeter,
+"""This module defines a Rectangle class with width, height, area, perimeter,
 string representation using '#' character, eval-able __repr__,
 __del__ method, and number_of_instances tracking.
 """
@@ -56,11 +56,4 @@ class Rectangle:
 
     def __str__(self):
         """Return the rectangle with '#' characters."""
-        if self.__width == 0 or self.__height == 0:
-            return ""
-        lines = ["#" * self.__width for _ in range(self.__height)]
-        return "\n".join(lines)
-
-    def __repr__(self):
-        """Return a string representation able to recreate a new instance."""
-        return "Re
+        if self.__width == 0 or self.
