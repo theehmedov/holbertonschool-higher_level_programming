@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""string representation using the # character."""
+"""This module defines a Rectangle class with width, height, area, perimeter,
+and string representation using the '#' character.
+"""
 
 
 class Rectangle:
@@ -56,8 +58,8 @@ class Rectangle:
         return "\n".join(lines)
 
     def __repr__(self):
-    """Return the official string representation of the object."""
-    return ("<{}.{}, object at {}>"
-            .format(self.__class__.__module__,
-                    self.__class__.__name__,
-                    hex(id(self))))
+        """Return the official string representation of the object."""
+        return ("<{}.{}, object at {}>"
+                .format(self.__class__.__module__,
+                        self.__class__.__name__,
+                        hex(id(self))))
