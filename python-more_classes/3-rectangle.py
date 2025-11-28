@@ -58,8 +58,8 @@ class Rectangle:
         return "\n".join(lines)
 
     def __repr__(self):
-        """Return the official string representation of the object."""
-        return ("<{}.{}, object at {}>"
-                .format(self.__class__.__module__,
-                        self.__class__.__name__,
-                        hex(id(self))))
+    """Return the official string representation of the object."""
+    return ("<{}.{} object at {}>"
+            .format(self.__class__.__module__,
+                    self.__class__.__name__,
+                    hex(id(self))))
