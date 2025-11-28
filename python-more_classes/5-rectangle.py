@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """This module defines a Rectangle class with width, height, area, perimeter,
-string representation using '#' character, eval-able __repr__, and __del__ method.
+sentation using '#' character, eval-able __repr__, and __del__ method.
 """
 
 
