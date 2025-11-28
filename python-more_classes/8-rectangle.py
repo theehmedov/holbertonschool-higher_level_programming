@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-"""This module defines a Rectangle class with width, height, area"""
+"""
+Module that defines a Rectangle class with instance counter,
+customizable print symbol, and static method to compare rectangles.
+"""
 
 
 class Rectangle:
